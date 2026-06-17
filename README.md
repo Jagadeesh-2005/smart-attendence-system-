@@ -225,3 +225,10 @@ Vasireddy Venkatadri Institute of Technology (VVIT)
 ## 📜 License
 
 This project is developed for educational and academic purposes.
+
+
+
+**OUTPUT**
+<img width="1920" height="1020" alt="Screenshot 2026-06-17 113806" src="https://github.com/user-attachments/assets/3aa86c73-5d25-40dc-8998-d8724832ac50" />
+<img width="1920" height="1020" alt="Screenshot 2026-06-17 113816" src="https://github.com/user-attachments/assets/57e57517-9db3-41a7-a667-ecbe040ae7e8" />
+

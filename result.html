@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Student Details</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+{% if found %}
+
+<h1>Student Details</h1>
+
+<div class="card">
+
+<p><b>Name:</b> {{name}}</p>
+
+<p><b>Gmail:</b> {{gmail}}</p>
+
+<p><b>College:</b> {{college}}</p>
+
+<p><b>Attendance Percentage:</b> {{attendance}}%</p>
+
+<p><b>Present Sessions:</b> {{present}}</p>
+
+<p><b>Absent Sessions:</b> {{absent}}</p>
+
+<p><b>Certificate Status:</b> {{eligibility}}</p>
+
+</div>
+
+{% else %}
+
+<h2>Student Not Found ❌</h2>
+
+{% endif %}
+
+<a href="/">Search Again</a>
+
+</div>
+
+</body>
+</html>
